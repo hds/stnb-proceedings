@@ -1,4 +1,4 @@
-# stnbproc
+# stnb-proceedings
 
 Clase de document de Latex per els *proceedings* del Seminari de Teoria de Nombres de Barcelona.
 
