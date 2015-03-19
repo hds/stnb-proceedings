@@ -5,7 +5,7 @@
 
 \def\logofile{stnb-color}
 \DeclareOption*{\PassOptionsToClass{\CurrentOption}{amsproc}}
-\DeclareOption{logocolor}{\def\logofile{stnb-color}}
+\DeclareOption{logobn}{\def\logofile{stnb-bn}}
 \ProcessOptions
 
 
