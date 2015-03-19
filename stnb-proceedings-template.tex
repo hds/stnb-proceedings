@@ -1,0 +1,93 @@
+%% filename: stnb-proceedings-template.tex   
+%% version: 1.1
+%% date: 2015/03/19
+%%
+%% For the latest version of this STNB proceedings class, see:
+%%         https://github.com/hds/stnb-proceedings
+%%
+%% This work may be distributed and/or modified under the
+%% conditions of the LaTeX Project Public License, either version 1.3c
+%% of this license or (at your option) any later version.
+%% The latest version of this license is in
+%%   http://www.latex-project.org/lppl.txt
+%% and version 1.3c or later is part of all distributions of LaTeX
+%% version 2005/12/01 or later.
+
+%%
+%% ====================================================================
+
+%   Template for use with stnb-proceedings.cls
+%
+%	Use the document class option ``logocolor'' for a colour version of the TNB logo.
+%
+%   Remove any commented or uncommented macros you do not use.
+
+\documentclass{stnb-proceedings}
+
+% Here is the proposed format of the theorem, lemma, proposition, etc. environments
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{lemma}[theorem]{Lemma}
+
+\theoremstyle{definition}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{example}[theorem]{Example}
+
+
+\theoremstyle{remark}
+\newtheorem{remark}[theorem]{Remark}
+
+\numberwithin{equation}{section}
+
+% Omplir any  i edició (en anglès)
+\stnbyear{2015}{29th}
+
+
+
+\begin{document}
+
+\title{STNB Template}
+
+%    Remove any unused author tags.
+
+%    author one information
+\author{X. Y.}
+\address{}
+\curraddr{}
+\email{}
+\thanks{}
+
+%    author two information - Remove comment if needed
+%\author{}
+%\address{}
+%\curraddr{}
+%\email{}
+%\thanks{}
+
+\subjclass[2000]{Primary }
+
+\keywords{}
+
+\date{26 January, 2015}  % No apareix al pdf
+
+\begin{abstract}
+This is a template to be used for the papers corresponding to the presentations given at STNB (Barcelona Number Theory Seminar).
+\end{abstract}
+
+\maketitle
+
+This template can be used to prepare papers for conference proceedings of STNB.
+It comes with a simple set of formatting instructions to print the heading.
+
+
+The full text of the document can be included here, by using sections, subsections and so on. Authors can use own macros and style for theorems, definitions and others environments, unless specific instructions are given by the editors of each volum.
+
+
+
+
+
+\end{document}
+
+
+%-----------------------------------------------------------------------
+% End of stnb-proceedings-template.tex
+%-----------------------------------------------------------------------
